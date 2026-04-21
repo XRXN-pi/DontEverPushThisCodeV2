@@ -30,8 +30,8 @@ Students build each security gate from scratch using `TODO#` markers in `.github
 
 ```bash
 docker build -t highly-exploitable-site .
-docker run --rm -p 3000:8080 highly-exploitable-site
-# visit http://localhost:3000
+docker run --rm -p 8080:3000 highly-exploitable-site
+# visit http://localhost:8080
 ```
 
 ---
